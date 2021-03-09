@@ -1,0 +1,11 @@
+[package]
+name = "vid_cutter"
+version = "0.1.0"
+authors = ["q8f13 <dustfall@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iced = {version = "0.1", features = ["image"]}
+iced_native = "0.2.2"
